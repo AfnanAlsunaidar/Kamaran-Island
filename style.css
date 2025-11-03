@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgb(219, 237, 243),rgba(197, 215, 221, 0.837));
+
+}
+header{
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    background-color:rgba(83, 172, 194, 0.407);
+    border-radius:3px ;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0.5px 0.5px 40px #b5babe;
+    z-index: 3000;
+    
+   
+    
+}
+.title{
+   margin-left: 120px;
+    margin-right: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+ 
+    letter-spacing: -1px;
+    color: rgb(5, 5, 135);
+    
+}
+
+.title::first-letter{
+    font-size: 30px;
+    font-weight: 1000;
+}
+
+.navigation{
+    margin: 10px;
+    margin-right: 120px;
+    margin-left: 20px;
+}
+a{
+    padding: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #2e2f30;
+}
+
+a:hover{
+    color:#044c94
+}
+
+
+
+.first{
+    height: 100vh;
+    background-color: rgb(220, 240, 246);
+
+    background-image: linear-gradient(rgba(7, 124, 249, 0.836),lightblue);
+
+}
+
+.photos{
+   
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    background-color: rgb(134, 138, 142);
+    padding: 1px;
+    border-radius: 40px;
+   
+   
+                
+}
+
+.thipho{
+    margin: -146px;
+    box-shadow:5px 10px 10px   #5d5f61;
+               
+}
+
+.sepho{
+    height: 320px;
+    z-index: 999;
+    margin: -79px;
+    margin-top: 53px;
+    margin-left: 25px;
+    box-shadow: 3px 10px 10px   #5d5f61;
+                
+}
+
+.firpho{
+    height: 220px;
+    z-index: 1000;
+    margin: -138px;
+    margin-top: 140px;
+    box-shadow: 5px 10px 10px   #5d5f61;
+                
+}
+
+.eke{
+    height: 100vh;
+    background-color: rgb(220, 240, 246);
+
+    /* background-image: linear-gradient(rgb(219, 237, 243),rgba(197, 215, 221, 0.837)); */
+
+}
+
+.uch{
+    padding: 100px 200px;
+    height: 100vh;
+    background-image: linear-gradient(rgb(219, 237, 243),rgba(0, 89, 85, 0.837));
+}
